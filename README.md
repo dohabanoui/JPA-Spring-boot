@@ -17,6 +17,8 @@ Le projet a été initialement créé avec Spring Initializer, en incluant les d
 - `spring-boot-starter-test` : Dépendance pour les tests unitaires avec Spring Boot.
 - `mysql-connector-j` : Driver JDBC pour MySQL.
 
+  On peut utiliser ce site pour generer les dependecies : https://start.spring.io/
+
 Voici le snippet XML de configuration Maven pour ces dépendances :
 
 ```xml
