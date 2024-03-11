@@ -13,7 +13,7 @@ public interface PatientRepository extends JpaRepository<Patient, Long> {
     List<Patient> findByNomContains(String nom);
     // ou je peux utiliser une requete jpql
     @Query("select p from Patient p where p.nom like :nom")
-        //@Param pour montrer que nom represente le parametre nom
+    //@Param pour montrer que nom represente le parametre nom
     List<Patient> search(@Param("nom") String nom);
 
     List<Patient> findByScoreGreaterThan(int score);
